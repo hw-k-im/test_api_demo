@@ -1,0 +1,21 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2025-10-01T17:01:14.099+09:00  INFO 91104 --- [test_api_demo] [           main] c.t.h.t.TestApiDemoApplication           : Starting TestApiDemoApplication v0.2.1 using Java 17.0.16 with PID 91104 (/Users/hyunwoo/Desktop/LG CNS CAMP/MSA/test_api_demo/build/libs/test_api_demo-0.2.1.jar started by hyunwoo in /Users/hyunwoo/Desktop/LG CNS CAMP/MSA/test_api_demo/script)
+2025-10-01T17:01:14.101+09:00  INFO 91104 --- [test_api_demo] [           main] c.t.h.t.TestApiDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T17:01:14.509+09:00  INFO 91104 --- [test_api_demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-01T17:01:14.516+09:00  INFO 91104 --- [test_api_demo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T17:01:14.516+09:00  INFO 91104 --- [test_api_demo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T17:01:14.528+09:00  INFO 91104 --- [test_api_demo] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-01T17:01:14.529+09:00  INFO 91104 --- [test_api_demo] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 408 ms
+2025-10-01T17:01:14.679+09:00  INFO 91104 --- [test_api_demo] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-01T17:01:14.689+09:00  INFO 91104 --- [test_api_demo] [           main] c.t.h.t.TestApiDemoApplication           : Started TestApiDemoApplication in 0.791 seconds (process running for 1.191)
+2025-10-01T17:01:38.576+09:00  INFO 91104 --- [test_api_demo] [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-01T17:01:38.585+09:00  INFO 91104 --- [test_api_demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
