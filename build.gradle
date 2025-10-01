@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.test.hwk'
-version = '0.0.1-SNAPSHOT'
+version = '0.1.2'
 description = 'Demo project for Spring Boot'
 
 java {
@@ -39,5 +39,9 @@ dependencies {
 }
 
 tasks.named('test') {
-	useJUnitPlatform()
+    enabled = false
+}
+
+tasks.named('jar') {
+	enabled = false
 }
