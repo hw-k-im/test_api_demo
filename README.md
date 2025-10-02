@@ -34,6 +34,8 @@ yaml
 ./gradlew clean build
 java -jar build/libs/test_api_demo-0.1.1.jar
 ```
-
+### Dockering
+- https://spring.io/guides/gs/spring-boot-docker
+- OpenJDK 17
 
 
